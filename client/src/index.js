@@ -1,0 +1,26 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "antd/dist/reset.css";
+import { ConfigProvider } from "antd";
+
+const theme = {
+  token: {
+    colorPrimary: "#f5a623",
+    borderRadius: 8,
+    fontFamily: "Inter, sans-serif",
+  },
+};
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <ConfigProvider theme={theme}>
+    <App />
+  </ConfigProvider>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
