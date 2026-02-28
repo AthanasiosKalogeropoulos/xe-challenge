@@ -16,7 +16,7 @@
 
 - **User Authentication**: Login & Logout
 - **CRUD Αγγελιών**: Δημιουργία, Επεξεργασία, Διαγραφή
-- **Autocomplete Περιοχών**: Βάσει Google Places API
+- **Autocomplete Περιοχών**: Βάση Google Places API
 - **Responsive Dashboard**: Δύο αγγελίες ανά γραμμή, cards ίδιου μεγέθους
 - **Clean Design**: Κίτρινα highlights, cards με hover effects
 
